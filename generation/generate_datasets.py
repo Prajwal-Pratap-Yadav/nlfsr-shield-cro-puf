@@ -16,7 +16,7 @@
 #   1. The device model is no longer defined locally. It is
 #      imported from puf_core.py, so generate_datasets.py,
 #      generate_c1_c2_datasets.py, ablation_study.py and
-#      real_hardware_full_attack.py all share one definition.
+#      measured_dataset_attack.py all share one definition.
 #   2. build_device() replaces generate_fingerprints(). Each
 #      ring oscillator now has three configurable inversion
 #      stages, as specified in reference [6], instead of a

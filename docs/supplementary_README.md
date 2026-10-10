@@ -49,7 +49,7 @@ delay (a stable pair). Every bit is effective in the model.
     python generation/generate_datasets.py          # C0: 100K / 500K / 1M / 3M
     python generation/generate_c1_c2_datasets.py    # C1 and C2
     python attacks/ablation_study.py                # Table XI (Protocol A)
-    python attacks/real_hardware_full_attack.py     # Table XII (Protocol A)
+    python attacks/measured_dataset_attack.py     # Table XII (Protocol A)
     python attacks/ml_regen_g4.py                   # Table VIII, single-device C0 at 100K (Protocol B, seeds 42/123/456)
     python attacks/ml_regen3.py                     # all other entries of Tables VIII and X (Protocol B, seed 42)
 

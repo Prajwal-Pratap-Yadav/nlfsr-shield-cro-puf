@@ -1,7 +1,7 @@
 # ============================================================
-# Script      : real_hardware_full_attack.py   [CORRECTED VERSION]
+# Script      : measured_dataset_attack.py   [CORRECTED VERSION]
 # Project     : NLFSR-Shield CRO-PUF
-# File        : python/ml_attacks/real_hardware_full_attack.py
+# File        : attacks/measured_dataset_attack.py
 #
 # Purpose     : ML attack evaluation on the real FPGA CRP
 #               dataset and its NLFSR-obfuscated version.
@@ -184,7 +184,7 @@ def main():
               f" {all_results['RH_MASKED'][model]['mean']:>9.2f}%")
     print("=" * 60)
 
-    out_path = os.path.join(OUTPUT_DIR, 'real_hardware_full_attack.json')
+    out_path = os.path.join(OUTPUT_DIR, 'measured_dataset_attack.json')
     with open(out_path, 'w') as f:
         json.dump(all_results, f, indent=2)
     print(f"\n  Saved: {out_path}")
