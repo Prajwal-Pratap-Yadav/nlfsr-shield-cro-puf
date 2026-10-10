@@ -40,7 +40,7 @@ datasets/raw/
 Thumbs.db
 .vscode/
 
-# Generated CRP datasets (large; dataset_manifest.txt stays tracked)
+# Generated CRP datasets
 sim/crp_output/*.csv
 sim/crp_output/**/*.csv
 sim/
