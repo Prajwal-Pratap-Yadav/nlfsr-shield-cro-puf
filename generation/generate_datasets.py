@@ -1,7 +1,7 @@
 # ============================================================
 # Script      : generate_datasets.py   [version 3.0]
 # Project     : NLFSR-Shield CRO-PUF
-# File        : python/metrics/generate_datasets.py
+# File        : generation/generate_datasets.py
 #
 # Purpose     : Generates the four C0 (unprotected baseline)
 #               dataset files required for the ML experiments.
@@ -43,6 +43,7 @@ import hashlib
 import os
 import time
 
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "model"))
 from puf_core import (lfsr_next, build_device, compute_raw_response,
                       device_ids, LFSR_SEED, DEVICE_0, DEVICE_ROOT_SEED,
                       NUM_ROS, STAGES, BASE_SIGMA, STAGE_SIGMA)

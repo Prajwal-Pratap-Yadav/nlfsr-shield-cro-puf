@@ -1,0 +1,54 @@
+========================================================================
+CONFIGURATION: C0_unprotected
+source file  : sim/crp_output/crp_c0_1m_sequential.csv
+========================================================================
+n = 1000000 bits    ones fraction = 0.503460
+
+--- NIST SP 800-22 Rev.1a ---
+
+--- NIST SP 800-90B (non-IID) ---
+  Most Common Value : H_min = 0.98637  (p_hat=0.503460)
+  Markov            : H_min = 0.99680
+  ---> min-entropy  = 0.98637 bits/bit
+
+--- Autocorrelation, lags 1..4096 ---
+  95% bound                : +/- 0.001960
+  max |r|                  : 0.041394 at lag 666
+  lags exceeding the bound : 2716 of 4096 (expect ~205 by chance)
+
+========================================================================
+CONFIGURATION: C1_NLFSR_Shield
+source file  : sim/crp_output/crp_c1_1m_sequential.csv
+========================================================================
+n = 1000000 bits    ones fraction = 0.500448
+
+--- NIST SP 800-22 Rev.1a ---
+
+--- NIST SP 800-90B (non-IID) ---
+  Most Common Value : H_min = 0.99500  (p_hat=0.500448)
+  Markov            : H_min = 0.99760
+  ---> min-entropy  = 0.99500 bits/bit
+
+--- Autocorrelation, lags 1..4096 ---
+  95% bound                : +/- 0.001960
+  max |r|                  : 0.003687 at lag 4090
+  lags exceeding the bound : 201 of 4096 (expect ~205 by chance)
+
+========================================================================
+CONFIGURATION: C2_Keccak
+source file  : sim/crp_output/crp_c2_1m_sequential.csv
+========================================================================
+n = 1000000 bits    ones fraction = 0.500458
+
+--- NIST SP 800-22 Rev.1a ---
+
+--- NIST SP 800-90B (non-IID) ---
+  Most Common Value : H_min = 0.99497  (p_hat=0.500458)
+  Markov            : H_min = 0.99922
+  ---> min-entropy  = 0.99497 bits/bit
+
+--- Autocorrelation, lags 1..4096 ---
+  95% bound                : +/- 0.001960
+  max |r|                  : 0.003548 at lag 1529
+  lags exceeding the bound : 207 of 4096 (expect ~205 by chance)
+

@@ -33,6 +33,7 @@ import pandas as pd
 import os
 import time
 
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "model"))
 from puf_core import (lfsr_next, build_device, compute_raw_response,
                       device_ids, NLFSRModel, LFSR_SEED)
 
