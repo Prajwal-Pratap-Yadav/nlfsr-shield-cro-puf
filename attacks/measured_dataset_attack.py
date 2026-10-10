@@ -1,9 +1,11 @@
 # ============================================================
 # Script      : measured_dataset_attack.py   [CORRECTED VERSION]
 # Project     : NLFSR-Shield CRO-PUF
+# Note        : "RH_*" labels (as in Table XII) denote the measured third-party
+#               dataset of Abulibdeh et al. (IEEE DataPort), not hardware run by the authors.
 # File        : attacks/measured_dataset_attack.py
 #
-# Purpose     : ML attack evaluation on the real FPGA CRP
+# Purpose     : ML attack evaluation on the measured third-party FPGA CRP
 #               dataset and its NLFSR-obfuscated version.
 #
 # Source      : Abulibdeh et al., IEEE DataPort 2023
@@ -16,9 +18,9 @@
 #   not a bijection and the period collapsed to 1,832.
 #
 # Conditions:
-#   RH_C0     : raw real hardware CRPs, no obfuscation
+#   RH_C0     : raw measured third-party CRPs, no obfuscation
 #   RH_C1     : NLFSR-Shield applied to the response stream
-#   RH_MASKED : raw real hardware, good bits only [1,5,6,9,13]
+#   RH_MASKED : raw measured third-party data, good bits only [1,5,6,9,13]
 # ============================================================
 
 import numpy as np
@@ -137,7 +139,7 @@ def evaluate_dataset(label, X, y):
 
 def main():
     print("=" * 60)
-    print("  Real Hardware ML Attack - Full Suite  [corrected NLFSR]")
+    print("  Measured Third-Party Data ML Attack - Full Suite  [corrected NLFSR]")
     print("  Source: Abulibdeh et al. DOI:10.21227/6ssx-ft56")
     print("=" * 60)
 
@@ -149,16 +151,16 @@ def main():
     all_results = {}
 
     print("\n" + "-" * 60)
-    print("  RH_C0: Raw real hardware (no obfuscation)")
+    print("  RH_C0: Raw measured third-party data (no obfuscation)")
     print("-" * 60)
-    all_results['RH_C0'] = evaluate_dataset("RH_C0 (Raw Real Hardware)", X, y)
+    all_results['RH_C0'] = evaluate_dataset("RH_C0 (Raw Measured Data)", X, y)
 
     print("\n" + "-" * 60)
-    print("  RH_C1: NLFSR-Shield applied to real hardware")
+    print("  RH_C1: NLFSR-Shield applied to measured third-party data")
     print("-" * 60)
     y_obf = apply_nlfsr_to_responses(y)[32:]
     all_results['RH_C1'] = evaluate_dataset(
-        "RH_C1 (NLFSR-Obfuscated Real Hardware)", X[32:], y_obf)
+        "RH_C1 (NLFSR-Obfuscated Measured Data)", X[32:], y_obf)
 
     print("\n" + "-" * 60)
     print("  RH_MASKED: Good bits only [1,5,6,9,13]")
@@ -174,7 +176,7 @@ def main():
         df_good['response'].values.astype(np.int32))
 
     print("\n" + "=" * 60)
-    print("  FINAL TABLE - Real Hardware ML Results")
+    print("  FINAL TABLE - Measured-Data ML Results")
     print("=" * 60)
     print(f"  {'Model':<14} {'RH_C0':>8} {'RH_C1':>8} {'RH_MASKED':>10}")
     print("  " + "-" * 44)

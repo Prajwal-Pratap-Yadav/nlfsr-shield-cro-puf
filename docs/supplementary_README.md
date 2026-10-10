@@ -117,9 +117,9 @@ and the key numbers to `reports/summary.txt` (Table XIII).
 |---|---|
 | `independent_seed_study.py` | Do the 1M results come from the device generator? (Section 5.4.1, Table IX) |
 | `physical_robustness_study.py` | Do the conclusions survive noise, layout asymmetry and shared variation? (Section 5.10, Table XV) |
-| `grouped_split_study.py` | Random vs challenge-grouped vs class-grouped split, per device (Reviewer 4; Section 5.9, Table XIV) |
-| `sequence_models.py` | LSTM and GRU on the ordered C1 stream (Reviewer 4; Section 5.11, Table XVI). Needs PyTorch. |
-| `design_aware_analysis.py` | Structural properties that bound a design-aware adversary: 416 effective challenge classes, the public keystream recurrence, and the 32-bit seed entropy (Reviewer 4; Section 6.5). |
+| `grouped_split_study.py` | Random vs challenge-grouped vs class-grouped split, per device (Section 5.9, Table XIV) |
+| `sequence_models.py` | LSTM and GRU on the ordered C1 stream (Section 5.11, Table XVI). Needs PyTorch. |
+| `design_aware_analysis.py` | Structural properties that bound a design-aware adversary: 416 effective challenge classes, the public keystream recurrence, and the 32-bit seed entropy (Section 6.5). |
 
 `verification/nlfsr_period_seeds.c` gives the NLFSR period for each device seed
 (Table I); build with `gcc -O3 -o nlfsr_period_seeds verification/nlfsr_period_seeds.c`
