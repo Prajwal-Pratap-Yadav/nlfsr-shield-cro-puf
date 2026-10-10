@@ -29,7 +29,7 @@ import os, sys, time, warnings, json
 warnings.filterwarnings('ignore')
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                             '..', 'metrics'))
+                             '..', 'model'))
 from puf_core import NLFSRModel
 
 from sklearn.linear_model    import LogisticRegression

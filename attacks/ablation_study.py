@@ -1,7 +1,7 @@
 # ============================================================
 # Script      : ablation_study.py   [CORRECTED VERSION]
 # Project     : NLFSR-Shield CRO-PUF
-# File        : python/ml_attacks/ablation_study.py
+# File        : attacks/ablation_study.py
 #
 # Purpose     : Ablation study - isolates the contribution of
 #               each component of the NLFSR-Shield.
@@ -32,7 +32,7 @@ import os, sys, time, warnings
 warnings.filterwarnings('ignore')
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                             '..', 'metrics'))
+                             '..', 'model'))
 from puf_core import (lfsr_next, build_device, compute_raw_response,
                       LFSR_SEED, DEVICE_0, MASK32)
 

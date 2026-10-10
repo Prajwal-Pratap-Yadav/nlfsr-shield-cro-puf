@@ -43,3 +43,4 @@ Thumbs.db
 # Generated CRP datasets (large; dataset_manifest.txt stays tracked)
 sim/crp_output/*.csv
 sim/crp_output/**/*.csv
+sim/

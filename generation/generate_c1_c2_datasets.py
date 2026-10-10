@@ -1,7 +1,7 @@
 # ============================================================
 # Script      : generate_c1_c2_datasets.py   [version 3.0]
 # Project     : NLFSR-Shield CRO-PUF
-# File        : python/metrics/generate_c1_c2_datasets.py
+# File        : generation/generate_c1_c2_datasets.py
 #
 # Purpose     : Generates CRP datasets for C1 (NLFSR-Shield)
 #               and C2 (Keccak-f[200]) configurations.
