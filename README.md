@@ -71,6 +71,7 @@ python tools/check_equivalence.py                # expect 0 mismatches
 python generation/generate_datasets.py           # C0: 100K / 500K / 1M / 3M
 python generation/generate_c1_c2_datasets.py     # C1 and C2
 ```
+Datasets are written to `sim/crp_output/` (git-ignored). Each CSV has a `_sequential` twin used by the NIST tests, and `dataset_manifest.txt` holds the SHA-256 hashes. Attack scripts read from there and write to `results/ml/`.
 
 **3. ML attacks and studies**
 
