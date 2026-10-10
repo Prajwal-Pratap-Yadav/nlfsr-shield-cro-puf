@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "NLFSR-Shield: Lightweight NLFSR Obfuscation Layer Against ML Attacks on Configurable Ring Oscillator PUFs"
+authors:
+  - family-names: "Yadav"
+    given-names: "Prajwal Pratap"
+  - family-names: "Pramanick"
+    given-names: "Esha"
+  - family-names: "Acharya"
+    given-names: "Biswaranjan"
+  - family-names: "Dedefo"
+    given-names: "Abdisa Kediro"
+repository-code: "https://github.com/Prajwal-Pratap-Yadav/nlfsr-shield-cro-puf"
+license: Apache-2.0
+keywords:
+  - physical unclonable function
+  - ring oscillator PUF
+  - nonlinear feedback shift register
+  - machine learning attack
+  - hardware security

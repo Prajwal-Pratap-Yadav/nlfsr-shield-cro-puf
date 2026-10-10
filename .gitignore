@@ -1,0 +1,41 @@
+# Vivado
+*.jou
+*.log
+*.str
+*.backup.*
+.Xil/
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.srcs/
+*.xpr
+*.bit
+*.bin
+*.dcp
+
+# Simulation
+*.vcd
+*.vvp
+*.wdb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large generated data (publish via Zenodo / Releases instead)
+datasets/*.csv
+datasets/*.npy
+datasets/*.npz
+datasets/*.parquet
+datasets/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
