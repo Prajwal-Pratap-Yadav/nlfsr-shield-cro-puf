@@ -1,0 +1,10 @@
+device 0 seed D60E804F period 2876038240
+device 1 seed 6E04F701 period 2876038240
+device 2 seed 770AF703 period 2876038240
+device 3 seed 331FA246 period 2876038240
+device 4 seed FEEAE60B period 611995400
+device 5 seed B778662D period 2876038240
+device 6 seed CE47D118 period 43712422
+device 7 seed AAA17FBD period 18659384
+device 8 seed 175AC407 period 611995400
+device 9 seed CE2511E8 period 2876038240

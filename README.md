@@ -25,15 +25,17 @@ This is a **design-and-simulation study**. The RTL was verified in event-driven 
 
 | Folder | Contents |
 |--------|----------|
-| `rtl/` | Verilog RTL (gate-level and behavioural) and testbenches |
-| `vivado/` | Tcl scripts, constraints, post-implementation reports |
-| `model/` | Python behavioural device model |
-| `datasets/` | CRP generation scripts and SHA-256 manifest |
-| `attacks/` | ML attack scripts |
-| `analysis/` | PUF metrics, NIST tests, ablation, robustness, power-analysis simulation |
-| `figures/` | Figure-generation scripts and final figures |
-| `results/` | Result files for the reported experiments |
-| `docs/` | Manuscript section to script mapping and reproduction notes |
+| `rtl/` | Behavioural simulation models (`cropuf_sim_model.v`, `nlfsr_core.v`) and equivalence testbenches |
+| `rtl_hw/` | Gate-level RTL: CIU, ring-oscillator cells, CRO-PUF core, `top_c0` / `top_c1` / `top_c2`, Keccak-f[200] layer, timing testbenches |
+| `vivado_hw/` | Vivado flow (`run_all.tcl`), constraints (`nlfsr_shield.xdc`), post-implementation reports for C0/C1/C2 |
+| `model/` | Python device model (`puf_core.py`) and the earlier LCG generator (`legacy_lcg.py`) kept for comparison |
+| `generation/` | CRP dataset generation for C0, C1 and C2 |
+| `attacks/` | ML attack scripts and ablation study |
+| `experiments/` | Grouped-split, independent-seed, physical-robustness, sequence-model (LSTM/GRU), design-aware and RO-timing studies |
+| `verification/` | NLFSR period verification (C and Python) and NIST SP 800-22 tests |
+| `tools/` | RTL/model equivalence checks and export helpers |
+| `figures/` | Figure-generation script |
+| `docs/` | Original supplementary README and reproduction notes |
 
 ## Requirements
 

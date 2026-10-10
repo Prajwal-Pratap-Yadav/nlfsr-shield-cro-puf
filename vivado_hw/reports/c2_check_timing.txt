@@ -1,0 +1,130 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct  2 15:13:54 2026
+| Host         : PRAJWAL running 64-bit major release  (build 9200)
+| Command      : check_timing -file D:/Documents/nlfsr_shield_puf/supplementary_v3/vivado_hw/reports/c2_check_timing.txt
+| Design       : top_c2
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (816)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (96)
+5. checking no_input_delay (19)
+6. checking no_output_delay (19)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (16)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (816)
+--------------------------
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[0]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[10]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[11]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[12]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[13]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[14]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[15]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[1]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[2]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[3]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[4]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[5]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[6]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[7]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[8]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/ch_reg[9]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: u_cro/run_reg/Q (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (96)
+-------------------------------------------------
+ There are 96 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (19)
+-------------------------------
+ There are 19 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (19)
+--------------------------------
+ There are 19 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (16)
+----------------------
+ There are 16 combinational loops in the design. (HIGH)
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+

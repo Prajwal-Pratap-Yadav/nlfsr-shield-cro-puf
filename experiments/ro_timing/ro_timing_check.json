@@ -1,0 +1,9 @@
+{
+ "n": 2000,
+ "agree": 1998,
+ "agree_pct": 99.9,
+ "max_margin_at_disagreement": 2,
+ "ties_equal_counts": 15,
+ "count_min": 2032,
+ "count_max": 2425
+}

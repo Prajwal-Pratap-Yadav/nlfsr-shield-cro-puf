@@ -1,0 +1,6 @@
+NLFSR-Shield post-implementation summary  (Fri Oct 02 15:06:43 +0530 2026)
+Vivado 2025.2, part xc7a35tcpg236-1, clock 10 ns
+cfg | Slice LUTs | LUTs in RO bank | LUTs as logic outside RO bank | Slice registers | Slices | WNS ns | WHS ns | Fmax MHz | Dynamic W | Total on-chip W | Bitstream
+c0 | 201 | 200 | 1 | 140 | 89 | 5.147 | 0.121 | 206.1 | 0.016 | 0.086 | written
+c1 | 218 | 200 | 18 | 184 | 97 | 5.191 | 0.122 | 207.9 | 0.012 | 0.082 | written
+c2 | 597 | 200 | 397 | 489 | 219 | 4.253 | 0.066 | 174.0 | 0.036 | 0.106 | written

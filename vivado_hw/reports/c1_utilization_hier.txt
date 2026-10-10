@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct  2 15:11:23 2026
+| Host         : PRAJWAL running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file D:/Documents/nlfsr_shield_puf/supplementary_v3/vivado_hw/reports/c1_utilization_hier.txt
+| Design       : top_c1
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------+--------------+------------+------------+---------+------+-----+--------+--------+------------+
+|  Instance  |    Module    | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++------------+--------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top_c1     |        (top) |        218 |        214 |       0 |    4 | 184 |      0 |      0 |          0 |
+|   (top_c1) |        (top) |          0 |          0 |       0 |    0 |  18 |      0 |      0 |          0 |
+|   (u_cro)  | cro_puf_core |         77 |         77 |       0 |    0 | 140 |      0 |      0 |          0 |
++------------+--------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

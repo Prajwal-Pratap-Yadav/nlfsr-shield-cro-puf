@@ -1,0 +1,290 @@
+{
+ "S0": {
+  "name": "reference model (puf_core v3.0)",
+  "rho": 0.0,
+  "asym": 0.0,
+  "noise": 0.0,
+  "reliability": 100.0,
+  "uniformity": 50.35141527428092,
+  "uniqueness": 47.222128972643965,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 7,
+  "seed_mean_hd": 15.222222222222221,
+  "seed_reproduction": 100.0,
+  "unseen_device_c0": [
+   55.956969558251316,
+   11.892767835429678
+  ],
+  "c0_single": [
+   100.0,
+   0.0
+  ],
+  "c1_single": [
+   50.051111111111105,
+   0.4179077811913118
+  ],
+  "c0_pooled": [
+   65.244,
+   0.025127821382032456
+  ],
+  "c1_pooled": [
+   49.76044444444444,
+   0.05265775827143534
+  ],
+  "c0_pooled_bound": 65.4424,
+  "c1_pooled_bound": 59.9018
+ },
+ "N2": {
+  "name": "measurement noise, reliability 98%",
+  "rho": 0.0,
+  "asym": 0.0,
+  "noise": 0.02,
+  "reliability": 97.9957,
+  "uniformity": 50.35141527428092,
+  "uniqueness": 47.222128972643965,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 8,
+  "seed_mean_hd": 15.511111111111111,
+  "seed_reproduction": 56.51327292586959,
+  "unseen_device_c0": [
+   55.956969558251316,
+   11.892767835429678
+  ],
+  "c0_single": [
+   98.12666666666667,
+   0.10596994682280783
+  ],
+  "c1_single": [
+   49.62222222222223,
+   0.3239722591385827
+  ],
+  "c0_pooled": [
+   65.0908888888889,
+   0.08078198063344144
+  ],
+  "c1_pooled": [
+   50.02511111111111,
+   0.09829559853502207
+  ],
+  "c0_pooled_bound": 65.3923,
+  "c1_pooled_bound": 59.871
+ },
+ "N5": {
+  "name": "measurement noise, reliability 95%",
+  "rho": 0.0,
+  "asym": 0.0,
+  "noise": 0.05,
+  "reliability": 95.045,
+  "uniformity": 50.35141527428092,
+  "uniqueness": 47.222128972643965,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 7,
+  "seed_mean_hd": 15.311111111111112,
+  "seed_reproduction": 24.141189348882918,
+  "unseen_device_c0": [
+   55.956969558251316,
+   11.892767835429678
+  ],
+  "c0_single": [
+   94.91333333333334,
+   0.12268598881636807
+  ],
+  "c1_single": [
+   50.34222222222221,
+   0.4861438084241479
+  ],
+  "c0_pooled": [
+   64.63733333333333,
+   0.036785665485152635
+  ],
+  "c1_pooled": [
+   49.873111111111115,
+   0.00861236550003231
+  ],
+  "c0_pooled_bound": 65.1696,
+  "c1_pooled_bound": 59.9265
+ },
+ "N10": {
+  "name": "measurement noise, reliability 90%",
+  "rho": 0.0,
+  "asym": 0.0,
+  "noise": 0.1,
+  "reliability": 89.9813,
+  "uniformity": 50.35141527428092,
+  "uniqueness": 47.222128972643965,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 9,
+  "seed_mean_hd": 15.28888888888889,
+  "seed_reproduction": 5.752331705262787,
+  "unseen_device_c0": [
+   55.956969558251316,
+   11.892767835429678
+  ],
+  "c0_single": [
+   88.49555555555555,
+   0.14670033283643258
+  ],
+  "c1_single": [
+   49.48444444444444,
+   0.3058604539392944
+  ],
+  "c0_pooled": [
+   63.76666666666667,
+   0.04976686388291814
+  ],
+  "c1_pooled": [
+   50.06422222222221,
+   0.06738355296269896
+  ],
+  "c0_pooled_bound": 64.7137,
+  "c1_pooled_bound": 59.859
+ },
+ "A": {
+  "name": "layout asymmetry common to all chips",
+  "rho": 0.0,
+  "asym": 1.0,
+  "noise": 0.0,
+  "reliability": 100.0,
+  "uniformity": 50.64393072404059,
+  "uniqueness": 44.5446453548994,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 5,
+  "seed_mean_hd": 14.822222222222223,
+  "seed_reproduction": 100.0,
+  "unseen_device_c0": [
+   58.183108262760356,
+   4.401666053651806
+  ],
+  "c0_single": [
+   100.0,
+   0.0
+  ],
+  "c1_single": [
+   49.906666666666666,
+   0.19375433089544417
+  ],
+  "c0_pooled": [
+   67.73222222222222,
+   0.09300630537499113
+  ],
+  "c1_pooled": [
+   50.02844444444444,
+   0.09200536752994952
+  ],
+  "c0_pooled_bound": 67.7721,
+  "c1_pooled_bound": 59.8737
+ },
+ "R5": {
+  "name": "shared process variation, rho = 0.5",
+  "rho": 0.5,
+  "asym": 0.0,
+  "noise": 0.0,
+  "reliability": 100.0,
+  "uniformity": 53.41756313420309,
+  "uniqueness": 25.776760509651336,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 1,
+  "seed_mean_hd": 7.822222222222222,
+  "seed_reproduction": 100.0,
+  "unseen_device_c0": [
+   76.32806897077896,
+   4.664639661834558
+  ],
+  "c0_single": [
+   100.0,
+   0.0
+  ],
+  "c1_single": [
+   49.897777777777776,
+   0.5318126468579157
+  ],
+  "c0_pooled": [
+   81.77955555555556,
+   0.03496594463118231
+  ],
+  "c1_pooled": [
+   50.03755555555555,
+   0.04142761052221519
+  ],
+  "c0_pooled_bound": 81.8878,
+  "c1_pooled_bound": 59.8863
+ },
+ "R9": {
+  "name": "shared process variation, rho = 0.9",
+  "rho": 0.9,
+  "asym": 0.0,
+  "noise": 0.0,
+  "reliability": 100.0,
+  "uniformity": 54.218356603341725,
+  "uniqueness": 12.33037477853225,
+  "seed_identical_pairs": 1,
+  "seed_pairs": 45,
+  "seed_min_hd": 0,
+  "seed_mean_hd": 3.577777777777778,
+  "seed_reproduction": 100.0,
+  "unseen_device_c0": [
+   90.25406271458,
+   3.2162913442485914
+  ],
+  "c0_single": [
+   100.0,
+   0.0
+  ],
+  "c1_single": [
+   50.453333333333326,
+   0.22197764318524354
+  ],
+  "c0_pooled": [
+   91.68488888888889,
+   0.05616202310730756
+  ],
+  "c1_pooled": [
+   50.27955555555556,
+   0.04095284852692202
+  ],
+  "c0_pooled_bound": 91.8141,
+  "c1_pooled_bound": 60.7139
+ },
+ "W": {
+  "name": "worst case: rho 0.9 + asymmetry + 5% noise",
+  "rho": 0.9,
+  "asym": 1.0,
+  "noise": 0.05,
+  "reliability": 95.0005,
+  "uniformity": 54.882124055848024,
+  "uniqueness": 7.782236803065368,
+  "seed_identical_pairs": 0,
+  "seed_pairs": 45,
+  "seed_min_hd": 1,
+  "seed_mean_hd": 4.666666666666667,
+  "seed_reproduction": 9.217848020156193,
+  "unseen_device_c0": [
+   93.94522011139085,
+   2.0833651229622823
+  ],
+  "c0_single": [
+   93.44,
+   0.17393059492755084
+  ],
+  "c1_single": [
+   50.13777777777778,
+   0.18088943488861056
+  ],
+  "c0_pooled": [
+   92.79599999999999,
+   0.03790436308317247
+  ],
+  "c1_pooled": [
+   49.79844444444444,
+   0.10568623489799214
+  ],
+  "c0_pooled_bound": 93.0604,
+  "c1_pooled_bound": 59.8603
+ }
+}

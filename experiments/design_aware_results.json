@@ -1,0 +1,23 @@
+{
+ "effective_classes": 416,
+ "classes_seen_in_lfsr_sequence": 416,
+ "class_response_inconsistencies": 0,
+ "keystream_recurrence_accuracy": 100.0,
+ "seed_distinct": 156805,
+ "seed_devices": 200000,
+ "seed_collision_entropy_bits": 15.820633272821238,
+ "seed_min_entropy_bits": 11.881720019873613,
+ "seed_identical_pairs": 245577,
+ "device_seeds_hex": [
+  "D60E804F",
+  "6E04F701",
+  "770AF703",
+  "331FA246",
+  "FEEAE60B",
+  "B778662D",
+  "CE47D118",
+  "AAA17FBD",
+  "175AC407",
+  "CE2511E8"
+ ]
+}
